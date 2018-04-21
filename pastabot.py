@@ -44,7 +44,7 @@ def login():
 	
 		
 def run(r):
-		subreddit = r.subreddit("pcmasterrace")
+		subreddit = r.subreddit("copypasta")
 		try:	
 			print("Crawling through:" , subreddit)
 			#Creates a file for storing pastas if it doesn't exist
